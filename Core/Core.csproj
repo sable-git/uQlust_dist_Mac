@@ -9,4 +9,11 @@
     <PackageReference Include="Accord.Math" Version="3.8.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Include="DSSP\DSSP.vcxproj" />
+    <None Include="DSSP\DSSP.vcxproj.user" />
+    <None Include="RNA\RNA.vcxproj" />
+    <None Include="RNA\RNA.vcxproj.user" />
+  </ItemGroup>
+
 </Project>
