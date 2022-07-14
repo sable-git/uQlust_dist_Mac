@@ -5,9 +5,9 @@ VisualStudioVersion = 16.0.32413.511
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "uQlust_dist_Mac", "uQlust_dist_Mac.csproj", "{5E715E0D-03C7-4478-AF44-78B48C63735B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "uQlust_core", "..\uQlust_core\uQlust_core.csproj", "{3AA0F24D-19A7-4E92-9241-519C0C2F4BA5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core", "Core\Core.csproj", "{B8C8D7FB-7DD8-4E65-8A49-D9FC846E7997}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "uQlust_Mac_Term", "..\uQlust_Mac_Term\uQlust_Mac_Term.csproj", "{E24B58BD-D108-40CB-86F9-45ABF7B36405}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "uQlust_Mac_Term", "uQlust_Mac_Term\uQlust_Mac_Term.csproj", "{9930C348-7141-48AE-9812-3F0CC76AFFE1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,14 +19,14 @@ Global
 		{5E715E0D-03C7-4478-AF44-78B48C63735B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5E715E0D-03C7-4478-AF44-78B48C63735B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5E715E0D-03C7-4478-AF44-78B48C63735B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{3AA0F24D-19A7-4E92-9241-519C0C2F4BA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3AA0F24D-19A7-4E92-9241-519C0C2F4BA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3AA0F24D-19A7-4E92-9241-519C0C2F4BA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3AA0F24D-19A7-4E92-9241-519C0C2F4BA5}.Release|Any CPU.Build.0 = Release|Any CPU
-		{E24B58BD-D108-40CB-86F9-45ABF7B36405}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E24B58BD-D108-40CB-86F9-45ABF7B36405}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E24B58BD-D108-40CB-86F9-45ABF7B36405}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E24B58BD-D108-40CB-86F9-45ABF7B36405}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8C8D7FB-7DD8-4E65-8A49-D9FC846E7997}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8C8D7FB-7DD8-4E65-8A49-D9FC846E7997}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8C8D7FB-7DD8-4E65-8A49-D9FC846E7997}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8C8D7FB-7DD8-4E65-8A49-D9FC846E7997}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9930C348-7141-48AE-9812-3F0CC76AFFE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9930C348-7141-48AE-9812-3F0CC76AFFE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9930C348-7141-48AE-9812-3F0CC76AFFE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9930C348-7141-48AE-9812-3F0CC76AFFE1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
