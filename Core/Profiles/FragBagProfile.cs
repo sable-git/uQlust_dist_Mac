@@ -350,10 +350,10 @@ namespace uQlustCore.Profiles
                         foreach (var item in profile)
                         {
                             byte value = 0;
-                            if (item < 255)
+                            if (item < Byte.MaxValue)
                                 value = Convert.ToByte(item);
                             else
-                                value = 244;
+                                value = Byte.MaxValue;
                                 wr.Write(value + " ");
                         }
                         wr.WriteLine();

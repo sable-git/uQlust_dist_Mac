@@ -118,7 +118,7 @@ namespace uQlustTerminal
                 Console.WriteLine("-f database file name (Save name with -c option, Load otherwise");
                 Console.WriteLine("-d directory with structures for testing or file name with list of files");
                 Console.WriteLine("-s result file name");
-                Console.WriteLine("Following options are optional:");
+                Console.WriteLine("Following parameters are optional:");
                 Console.WriteLine("-e \n\t show all errors");
                 Console.WriteLine("-n \n\t set number of cores to be used");
                 Console.WriteLine("-t \n\tshow time information");
